@@ -56,7 +56,6 @@
 
 2. 在文件夹内初始化Git（创建Git仓库） <br/>
 `cd demo1`  <br/>
-
 `git init` 
 
 #### 添加到暂存区
@@ -91,12 +90,12 @@
 作为安全预防措施，GitHub 会自动删除一年内未使用过的个人访问令牌。
 
 ##### 创建令牌
-1.在任何页面的右上角，单击您的个人资料照片，然后单击 **Settings（设置）。**<br>
-2.在左侧边栏中，单击 **Developer settings。**<br>
-3.在左侧边栏中，单击 **Personal access tokens（个人访问令牌）。**<br>
-4.单击 **Generate new token（生成新令牌）。**<br>
-5.将令牌复制到剪贴板。 出于安全原因，离开此页面后，您将无法再次看到令牌。<br>
-6.在输入账号和密码时，密码就是这个token令牌
+1. 在任何页面的右上角，单击您的个人资料照片，然后单击 **Settings（设置）。**<br>
+2. 在左侧边栏中，单击 **Developer settings。**<br>
+3. 在左侧边栏中，单击 **Personal access tokens（个人访问令牌）。**<br>
+4. 单击 **Generate new token（生成新令牌）。**<br>
+5. 将令牌复制到剪贴板。 出于安全原因，离开此页面后，您将无法再次看到令牌。<br>
+6. 在输入账号和密码时，密码就是这个token令牌
 
 
 ## 分支管理
@@ -129,10 +128,10 @@
 出现这个问题是因为github中的README.md文件不在本地代码目录中，可以通过如下命令进行代码合并
 
 `git pull --rebase origin master`
-
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
 
 #### 2. 出现了这样的问题 ` everything up-to-date`
 
