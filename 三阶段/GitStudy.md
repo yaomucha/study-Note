@@ -60,10 +60,10 @@
 
 #### 添加到暂存区
 `git add a1.php` 添加某一个文件 <br/>
-`git add .` 添加所有文件
-`git status`  查看状态
-`git ls-files` 查看缓存区内容
-`git rm '文件名' -r -f`、`git rm '文件名'` 删除缓存区的文件（文件夹）、删除远程的文件（文件夹）
+`git add .` 添加所有文件<br/>
+`git status`  查看状态<br/>
+`git ls-files` 查看缓存区内容<br/>
+`git rm '文件名' -r -f`、`git rm '文件名'` 删除缓存区的文件（文件夹）、删除远程的文件（文件夹）<br/>
 删除远程文件时，执行删除命令后要commit和push才会生效
 
 
