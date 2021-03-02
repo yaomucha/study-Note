@@ -86,6 +86,8 @@
 
 `git remote -v` 查看所有连接
 
+`git remote rm origin`删除origin连接
+
 #### 推送到远程
 `git push origin master` 把缓存区的文件推送到远程master分支
 
@@ -181,3 +183,7 @@ git commit -m "提示消息"
 `git branch -D newbranch`
 
 如果想保留分支只是想删除已经合并的部分只要把大写的D改成小写的d就行了。
+
+
+####github unable to access 'https://github.com/...: Failed to connect to github.com port 443####
+这是由于没有指定用户密码导致的问题，在这种情况下，我们可以修改下载的仓库的URL地址，格式就是https://username:passwords@github.com/......
